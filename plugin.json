@@ -1,0 +1,18 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "liquid-canvas",
+  "displayName": "Liquid Canvas",
+  "version": "1.0.0",
+  "description": "液态玻璃风格的智能协作画板：支持用户在侧边栏或全屏直接绘画，同时可供智能体实时绘制、识图理解与精细修改画布元素。",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "打开 Liquid Canvas 画板，帮我画一张带液态玻璃卡片的微服务架构图",
+    "看看我刚才在画板上画的草图，帮我美化并加上中文标注",
+    "在画板上创建一个双栏移动端界面线框图，并保留可编辑图层"
+  ],
+  "author": {
+    "name": "Liquid Canvas"
+  },
+  "license": "MIT",
+  "keywords": ["canvas", "drawing", "whiteboard", "liquid-glass", "mcp-app"]
+}

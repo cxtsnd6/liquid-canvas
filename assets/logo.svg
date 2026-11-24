@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="glassBg" x1="16" y1="14" x2="112" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.92" />
+      <stop offset="52%" stop-color="#6366F1" stop-opacity="0.90" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.94" />
+    </linearGradient>
+    <linearGradient id="glassShine" x1="20" y1="16" x2="108" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.58" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.06" />
+    </linearGradient>
+    <linearGradient id="strokeGlow" x1="30" y1="84" x2="88" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <!-- 10% safe padding around rounded liquid glass square -->
+  <rect x="14" y="14" width="100" height="100" rx="26" fill="url(#glassBg)" />
+  <rect x="15.5" y="15.5" width="97" height="97" rx="24.5" stroke="#FFFFFF" stroke-opacity="0.48" stroke-width="2" />
+  <path d="M16 40C16 26.745 26.745 16 40 16H88C101.255 16 112 26.745 112 40V46C92 56 42 54 16 64V40Z" fill="url(#glassShine)" />
+  <!-- Luminous fluid curve -->
+  <path d="M32 82C44 62 56 90 70 70C77 60 86 52 94 46" stroke="url(#strokeGlow)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Crisp stylus nib -->
+  <path d="M77 45L94 28C97 25 101 25 104 28C107 31 107 35 104 38L87 55L74 58L77 45Z" fill="#FFFFFF" fill-opacity="0.95" stroke="#0F172A" stroke-opacity="0.25" stroke-width="1.5" stroke-linejoin="round" />
+  <circle cx="42" cy="43" r="5.5" fill="#FFFFFF" fill-opacity="0.9" />
+</svg>
